@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from edutech.designgurus.in/color1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Apr 2018 11:18:38 GMT -->
