@@ -1,0 +1,359 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project:	Edutech
+Version:	1.1
+Author:	Design Gurus (https://themeforest.net/user/design_gurus )
+Primary use: Corporate, Education and Institution
+
+
+This Css File is used for responsive purpose in every purpose
+
+-------------------------------------------------------------------*/
+body{
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+@media screen and (min-width: 200px) and (max-width: 991px){
+    .navbar-default .navbar-brand{
+        margin-top: -7px;
+        padding: 0 15px;
+    }
+    #navigation li.active a{
+        border-color: #000;
+        color: #000;
+    }
+    .navbar-nav .open .dropdown-menu{
+        background-color: #f1f1f1;
+    }
+    #navigation li a:hover{
+        border-color: #000;
+        color: #000;
+    }
+    .minusMg{
+        margin-top: 40px !important;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 767px){
+    #navigation li{
+        padding: 10px 20px;
+    }
+}
+@media screen and (min-width: 994px) and (max-width: 1200px){
+    #navigation li{
+        padding: 10px 12px;
+    }
+}
+@media screen and (max-width: 767px){
+
+    .navbar-collapse{
+        padding-top: 0px !important;
+    }
+    .TopBar{
+        text-align: center;
+    }
+    .TopUl{
+        text-align: center;
+    }
+    .TopUl li a{
+        padding: 0px 5px;
+    }
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+        position: absolute;
+        width: 100%;
+        z-index: 99999;
+    }
+    .gradientMenu{
+        color: #fff;
+        background-color: transparent;
+        padding: 0px !important;
+    }
+    .gradientMenu a{
+        color: #fff !important;
+        padding: 10px 20px !important;
+    }
+    #navigation{
+        margin-bottom: 0px;
+    }
+    .MobileLogin{
+        margin-top: 0px;
+    }
+    #banner-section{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .BigFont {
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .popularBox{
+        margin-bottom: 30px;
+    }
+    .sectionPadding{
+        padding: 40px 15px;
+    }
+    .counterDesc{
+        font-size: 12px;
+    }
+    .counterTitle{
+        font-size: 30px;
+    }
+    .ServiceBox {
+        margin: 20px;
+        padding: 20px;
+    }
+    .PostArea{
+        margin-top: 50px;
+    }
+    .footerSmall{
+        font-size: 14px;
+    }
+    footer ul li a{
+        font-size: 11px;
+    }
+    footer{
+        text-align: center;
+    }
+    .SocialIcons{
+        text-align: center;
+    }
+    .featuredBlog{
+        height: 200px;
+    }
+    .overlayBlog{
+        height: 200px;
+    }
+    #Counter{
+        text-align: center;
+    }
+    .counterTitle::after{
+        left: 40%;
+    }
+    .RightIcon{
+        text-align: center;
+        padding: 15px;
+    }
+    .LeftIcon{
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+    }
+    .LeftIcon::after{
+        right: 0px;
+        border-color: transparent;
+    }
+    .RightIcon::after{
+        right: 0px;
+        border-color: transparent;
+    }
+    .TopUl .dropdown-menu{
+        min-width: 50px;
+        right: 0px;
+    }
+    #navigation li a{
+        color: #333;
+        padding: 2px 0px !important;
+    }
+    .navbar-fixed-top #navigation li a{
+        padding: 2px 0px !important;
+    }
+    .navbar-fixed-top #navigation .dropdown-menu li a{
+        padding: 8px !important;
+    }
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 0px 5px #ccc;
+    }
+    .bannerBtns{
+        font-size: 13px;
+    }
+    .bannerDesc{
+        font-size: 13px;
+    }
+    .navbar{
+        padding-top: 15px;
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    header{
+        background-position: center;
+    }
+    .ArrowImage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        transform: rotate(90deg);
+        width: 30%;
+    }
+    .subscribeBtn{
+        right: 26px;
+        top: 92px;
+    }
+    .minusMg{
+        margin-top: -75px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .col-md-15 , .col-sm-15{
+        width: 100% !important;
+        float: left;
+    }
+    .navbar-fixed-top .navbar-brand{
+        margin-top: -7px;
+        padding: 0 15px;
+    }
+    .postModal{
+        width: 90vw !important ;
+        margin-left: 5vw !important;
+    }
+    #playVideo .modal-dialog{
+    	width: 90vw !important ;
+        margin-left: 5vw !important;  
+        margin-right: 5vw !important;
+    }
+     .BlogImageContainer{
+        background-size: cover !important;
+        background-position: center !important;
+    }
+    .counterLine{
+        margin: 0 auto !important;
+    }
+	.owl-carousel.owl-loaded{
+        background-position: center !important;
+        background-size: cover !important;
+    }
+    .owl-carousel.owl-loaded{
+        background-position: center !important;
+        background-size: cover !important;
+    }
+    .OwlPadding{
+        padding-top: 130px !important;
+        padding-bottom: 40px !important;
+    }
+    .buyBtn{
+        padding: 6px 25px;
+        font-size: 13px;
+    }
+    .search-div{
+        padding: 0px;
+    }
+    .ImageContainer{
+    	background-position: center !important;
+    }
+    .footerLogo img{
+    	margin:0 auto;
+    }
+    .sectionHeader{
+        text-align: center;
+    }
+    .sectionHeader .underTitleLine{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .subscribeBtn{
+        right: 26px;
+        top: 125px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .BoxLayout{
+        margin: 0px;
+    }
+    .ImageContainer{
+        height: 180px;
+    }
+    .navbar-fixed-top #navigation li a{
+        padding: 10px 15px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 991px){
+    .BoxLayout{
+        margin: 0px;
+    }
+    
+    .navbar {
+        padding-top: 15px;
+    }
+    .ImageContainer{
+        height: 180px;
+    }
+    .navbar-nav.navbar-right > li > a{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .nav-tabs.nav-justified > li > a > i > img{
+        max-width: 30px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li a{
+        color: #333;
+    }
+    #navigation li a{
+        color: #333;
+    }
+    .navbar-nav {
+        float: none;
+    }
+    .nav.navbar-nav {
+        clear: both;
+        float: left;
+        margin: 0 0 0 -15px;
+        width: 100%;
+    }
+    .navbar-nav.navbar-right > li{
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+    .navbar-nav.navbar-right > li.active{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 0 5px #ccc;
+        position: absolute;
+        width: 90%;
+        z-index: 99999;
+    }
+    .BlogImageContainer{
+        background-size: cover !important;
+        background-position: center !important;
+    } 
+}
+@media screen and (min-width: 838px) and (max-width: 992px){
+    .container{
+        width: 95%;
+    }
+    #banner-section{
+        padding-top: 25px;
+    }
+}
+.navbar-fixed-top .navbar-toggle .icon-bar{
+    background-color:#000;
+}
+.navbar-default .navbar-toggle{
+    border-color: #000;
+}
